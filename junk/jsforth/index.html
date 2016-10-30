@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>JSForth???</title>
+	</head>
+	<body>
+		<NOSCRIPT>
+		<!--
+			  <HR>JS-Forth won't work: Javascript required.<HR>
+		//-->
+		 </NOSCRIPT>
+		 <p id="title">
+		 <a href="http://wiki.forthfreak.net/index.cgi?jsforth">
+		 jsforth -- Forth interpreter in JavaScript</a> -- best viewed with Firefox, Mozilla, Netscape, Epiphany, Galeon.<br>
+		 Avoid Internet Explorer, it really sucks with this program.
+		 <br></p>
+		 <p id="disclaimer">I did not make this -- it was originally on the link above but it's broken. So I pulled this from archive.org to make a working version</p>
+		 <form name="terminal">
+			<textarea type="text"   name="dialog" rows="30" cols="82" onKeyPress="return KeyEvent(event)" onClick="PasteEvent(event)"  onError="return ErrorEvent(event)"></textarea>
+			<textarea type="text"   name="status" rows="30" cols="55" onFocus="return FocusEvent(event)" onClick="SelectEvent(event)"></textarea>
+		 </form>
+		 <SCRIPT LANGUAGE="JavaScript" type="text/javascript" SRC="jsforth.js"></SCRIPT>
+		 <iframe name="dataframe" width="0" height="0" onload="LoadingCompleteEvent(this)" src=""></iframe>
+	</body>
+</html>
+	 
